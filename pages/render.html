@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CASE 03 — OC Scene Rendering / 三维产品渲染 | LINGYUAN DESIGN LAB</title>
+    <meta
+      name="description"
+      content="3D 渲染案例：Cinema 4D + Octane 场景搭建与渲染，包括复古音响室内场景、卫生间空间、猫粮机与车载香薰产品场景。"
+    />
+    <meta name="theme-color" content="#12100d" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23bf4226'/%3E%3Cpath d='M22 17v27h21' fill='none' stroke='%23f8f1e4' stroke-width='5.5'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://miaoda.feishu.cn" crossorigin />
+    <link rel="preconnect" href="https://sf3-scmcdn-cn.feishucdn.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://miaoda.feishu.cn/fonts/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap"
+    />
+  </head>
+
+  <body id="top" class="head-light">
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="progress" aria-hidden="true"><i></i></div>
+
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="LINGYUAN DESIGN LAB — 首页">
+        <span class="brand-seal" aria-hidden="true">凌</span>
+        <span class="brand-text"><b>LINGYUAN</b><i>DESIGN LAB — 凌煜鑫</i></span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="projects.html" data-nav="projects">WORK</a>
+        <a href="about.html" data-nav="about">PROFILE</a>
+        <a href="ai.html" data-nav="ailab">AI LAB</a>
+        <a href="render.html" data-nav="3dlab">3D LAB</a>
+        <a href="packaging.html" data-nav="packaging">PACKAGING</a>
+        <a href="contact.html" data-nav="contact">CONTACT</a>
+      </nav>
+      <div class="head-right">
+        <span class="status"><span class="dot"></span> OPEN FOR FREELANCE</span>
+        <button class="menu-btn" id="navToggle" aria-expanded="false" aria-controls="drawer" aria-label="打开菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18" /></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="drawer" id="drawer" aria-label="移动端导航">
+      <div class="drawer-top">
+        <a class="brand" href="../index.html">
+          <span class="brand-seal" aria-hidden="true">凌</span>
+          <span class="brand-text"><b>LINGYUAN</b><i>DESIGN LAB — 凌煜鑫</i></span>
+        </a>
+        <button class="drawer-close" id="drawerClose" aria-label="关闭菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </button>
+      </div>
+      <nav class="drawer-nav" aria-label="移动端导航链接">
+        <a href="../index.html" data-nav="home">HOME <span>01</span></a>
+        <a href="projects.html" data-nav="projects">WORK <span>02</span></a>
+        <a href="about.html" data-nav="about">PROFILE <span>03</span></a>
+        <a href="ai.html" data-nav="ailab">AI LAB <span>04</span></a>
+        <a href="render.html" data-nav="3dlab">3D LAB <span>05</span></a>
+        <a href="packaging.html" data-nav="packaging">PACKAGING <span>06</span></a>
+        <a href="contact.html" data-nav="contact">CONTACT <span>07</span></a>
+      </nav>
+      <div class="drawer-foot">
+        <span>凌煜鑫 · AI Visual Designer</span>
+        <a href="mailto:2946465217@qq.com">2946465217@qq.com</a>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="case-hero">
+        <div class="hero-lines" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow--a" aria-hidden="true"></div>
+        <div class="wrap case-inner">
+          <div class="case-head">
+            <p class="crumb"><a href="../index.html">HOME</a> / <a href="projects.html">WORK</a> / 3D LAB</p>
+            <p class="case-kicker"><span aria-hidden="true">●</span> CASE 03 — 3D RENDER</p>
+            <h1 class="case-title">OC Scene Rendering</h1>
+            <p class="case-sub">
+              Cinema 4D 建模布局，Octane 布光渲染：让产品在具体的空间、光线与材质关系里被看见。
+            </p>
+          </div>
+          <figure class="case-figure reveal">
+            <div class="frame">
+              <img
+                src="../assets/images/web/07.jpg"
+                alt="C4D 与 Octane 产品场景渲染设计板"
+                width="1440"
+                height="8160"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+            <figcaption><span>BOARD 01 / 3D SCENES</span><span>2025—2026</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="wrap case-body">
+        <dl class="case-meta reveal">
+          <div><dt>Role</dt><dd>场景设计 / 材质灯光 / 渲染</dd></div>
+          <div><dt>Tools</dt><dd>Cinema 4D · Octane Render</dd></div>
+          <div><dt>Deliverables</dt><dd>产品场景渲染图</dd></div>
+          <div><dt>Year</dt><dd>2025 — 2026</dd></div>
+        </dl>
+
+        <div class="case-intro reveal">
+          <h2>Project Overview <em>03 / 3D</em></h2>
+          <div>
+            <p>
+              使用 Cinema 4D 建模布局、Octane 光影渲染，为产品搭建真实的商业场景：复古音响室内摆件、卫生间空间、
+              猫粮机产品场景与车载香薰内饰场景，让产品在语境中成立。
+            </p>
+            <p>
+              场景的意义不只是「更好看」：它提供尺度参照、使用暗示与情绪氛围，让一张静帧承担起详情页与广告素材的叙事功能。
+            </p>
+          </div>
+        </div>
+
+        <div class="board-grid board-grid--single" style="margin-bottom: clamp(36px, 4vw, 56px)">
+          <ul class="output-list reveal">
+            <li><span>SC.01</span>RETRO SPEAKER — 复古音响室内场景：暖光、木质与织物质感</li>
+            <li><span>SC.02</span>BATHROOM SPACE — 卫生间空间：镜面、瓷砖与冷调自然光</li>
+            <li><span>SC.03</span>CAT FEEDER — 猫粮机产品场景：宠物生活语境与柔光</li>
+            <li><span>SC.04</span>CAR DIFFUSER — 车载香薰内饰场景：皮革、金属与夜间氛围</li>
+          </ul>
+        </div>
+
+        <figure class="board reveal">
+          <div class="board-head">
+            <span class="board-label">BOARD 01 / MAIN</span>
+            <h2 class="board-title">Scene Build &amp; Render <em>C4D + OCTANE</em></h2>
+          </div>
+          <div class="board-frame">
+            <img
+              src="../assets/images/web/07.jpg"
+              alt="C4D 与 Octane 产品场景渲染完整设计板：复古音响、卫生间、猫粮机、车载香薰"
+              width="1440"
+              height="8160"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <figcaption class="board-caption">
+            <span>FIG. 01 — FOUR SCENES / MODEL · LIGHT · MATERIAL · RENDER</span>
+            <span>C4D / OCTANE</span>
+          </figcaption>
+        </figure>
+
+        <div class="process-block reveal">
+          <div class="process-title">
+            <h2>Render Pipeline</h2>
+            <p class="mono">REFERENCE → MODEL → LIGHT → RENDER</p>
+          </div>
+          <ol class="steps steps--case">
+            <li class="step">
+              <span class="step-no">01</span>
+              <h3 class="step-title">Reference &amp; Moodboard <em>DIRECTION</em></h3>
+              <p class="step-text">根据产品调性收集参考，确定场景、构图与光影方向。</p>
+            </li>
+            <li class="step">
+              <span class="step-no">02</span>
+              <h3 class="step-title">Modeling &amp; Layout <em>C4D</em></h3>
+              <p class="step-text">完成产品模型、场景道具与空间布局，确定镜头与比例关系。</p>
+            </li>
+            <li class="step">
+              <span class="step-no">03</span>
+              <h3 class="step-title">Lighting &amp; Materials <em>OCTANE</em></h3>
+              <p class="step-text">搭建灯光系统，调整材质质感与色彩关系，控制画面重心。</p>
+            </li>
+            <li class="step">
+              <span class="step-no">04</span>
+              <h3 class="step-title">Final Render <em>POST</em></h3>
+              <p class="step-text">输出成品渲染，并在后期统一氛围、锐度与细节。</p>
+            </li>
+          </ol>
+        </div>
+
+        <nav class="pager" aria-label="案例翻页">
+          <a href="ai.html">
+            <span class="pager-label">← PREV CASE</span>
+            <span class="pager-title"><span aria-hidden="true">←</span> AI Lab</span>
+          </a>
+          <a href="packaging.html">
+            <span class="pager-label">NEXT CASE →</span>
+            <span class="pager-title">Brand Packaging <span aria-hidden="true">→</span></span>
+          </a>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <a class="brand" href="../index.html">
+              <span class="foot-seal" aria-hidden="true">凌</span>
+              <span class="brand-text"><b>LINGYUAN</b><i>DESIGN LAB — 凌煜鑫</i></span>
+            </a>
+            <p>AI 视觉设计师 · 跨境电商视觉。用 AI、三维与商业判断，让产品在货架上被看见。</p>
+          </div>
+          <div class="foot-col">
+            <h4>Index</h4>
+            <a href="../index.html">Home</a>
+            <a href="projects.html">Work</a>
+            <a href="about.html">Profile / CV</a>
+            <a href="ai.html">AI Lab</a>
+            <a href="render.html">3D Lab</a>
+            <a href="packaging.html">Packaging</a>
+          </div>
+          <div class="foot-col">
+            <h4>Contact</h4>
+            <a href="mailto:2946465217@qq.com">Email</a>
+            <p>WeChat · LY15676488063X</p>
+            <p>+86 156 7648 8063</p>
+            <a href="contact.html">Project brief ↗</a>
+          </div>          <div class="foot-col">
+            <h4>Services</h4>
+            <p>E-Commerce Visual</p>
+            <p>AIGC Creation</p>
+            <p>3D Rendering</p>
+            <p>Packaging &amp; Retouch</p>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <span>© <span data-year>2026</span> 凌煜鑫 — LINGYUAN DESIGN LAB</span>
+          <span>DESIGNED &amp; BUILT IN-HOUSE</span>
+          <a href="#top">BACK TO TOP ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
